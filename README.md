@@ -113,4 +113,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📞 Contact
 
-- Project Link: [https://github.com/AzusaOS/azusa-recipes-helper](https://github.com/AzusaOS/azusa-recipes-helper)
+- Project Link: [https://github.com/AzusaOS/](https://github.com/AzusaOS/)
