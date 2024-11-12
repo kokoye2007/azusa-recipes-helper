@@ -1,0 +1,3 @@
+[submodule "azusa-opensource-recipes"]
+	path = azusa-opensource-recipes
+	url = git@github.com:kokoye2007/azusa-opensource-recipes.git

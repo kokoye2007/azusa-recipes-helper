@@ -1,0 +1,4346 @@
+# Generated nvchecker config
+# Tue Nov 12 11:36:28 PM AEDT 2024
+
+[__config__]
+oldver = "old_ver.json"
+newver = "new_ver.json"
+
+# GitHub Template
+[" sys-libs - pam "]
+source = "github"
+github = "linux-pam/linux-pam"
+use_latest_release = true
+
+# GitHub Template
+[" dev-util - bazel "]
+source = "github"
+github = "bazelbuild/bazel"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-text - liblangtag "]
+source = "regex"
+url = "https://bitbucket.org/tagoh//downloads/"
+regex = "liblangtag-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - usdpython "]
+source = "github"
+github = "KarpelesLab/usdpython"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-lang - orc "]
+source = "regex"
+url = "https://gstreamer.freedesktop.org/src/"
+regex = "orc-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" xfce-extra - xfce4-power-manager "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce//${PV%.*}/"
+regex = "xfce4-power-manager-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - camd "]
+source = "regex"
+url = "http://202.36.178.9/sage/"
+regex = "camd-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - shellcheck "]
+source = "regex"
+url = "https://hackage.haskell.org/package/${MY_P}/"
+regex = "shellcheck-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - imath "]
+source = "github"
+github = "AcademySoftwareFoundation/${PN^}"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" net-libs - libssh2 "]
+source = "regex"
+url = "https://www.libssh2.org/download/"
+regex = "libssh2-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - libfmt "]
+source = "github"
+github = "fmtlib/fmt"
+use_latest_release = true
+
+# GitHub Template
+[" net-misc - ntpclient "]
+source = "github"
+github = "troglobit/sntpd"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-lang - duktape "]
+source = "regex"
+url = "https://duktape.org/"
+regex = "duktape-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-lang - mono "]
+source = "regex"
+url = "http://download.mono-project.com/sources/mono/"
+regex = "mono-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-libs - slang "]
+source = "regex"
+url = "https://www.jedsoft.org/releases/slang/"
+regex = "slang-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libmspack "]
+source = "regex"
+url = "https://www.cabextract.org.uk/libmspack/"
+regex = "libmspack-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libpfm "]
+source = "regex"
+url = "https://download.sourceforge.net/4/"
+regex = "libpfm-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-lang - python "]
+source = "regex"
+url = "https://www.python.org/ftp/python/"
+regex = "python-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - check "]
+source = "github"
+github = "libcheck/check"
+use_latest_release = true
+
+# GitHub Template
+[" net-analyzer - openvas-scanner "]
+source = "github"
+github = "greenbone/openvas-scanner"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libevdev "]
+source = "regex"
+url = "https://www.freedesktop.org/software/"
+regex = "libevdev-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-emulation - libvirt "]
+source = "regex"
+url = "https://libvirt.org/sources/"
+regex = "libvirt-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-emulation - qemu "]
+source = "regex"
+url = "https://download.qemu.org/"
+regex = "qemu-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-libs - xcb-util-cursor "]
+source = "regex"
+url = "https://xcb.freedesktop.org/dist/"
+regex = "xcb-util-cursor-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-crypt - gpa "]
+source = "regex"
+url = "https://www.gnupg.org/ftp/gcrypt/"
+regex = "gpa-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-db - postgresql "]
+source = "regex"
+url = "http://ftp.postgresql.org/pub/source/v/"
+regex = "postgresql-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-devel - gnuconfig "]
+source = "regex"
+url = "https://dev.gentoo.org/~sam/distfiles/"
+regex = "gnuconfig-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-cpp - gflags "]
+source = "github"
+github = "gflags/gflags"
+use_latest_release = true
+
+# GitHub Template
+[" net-fs - libnfs "]
+source = "github"
+github = "sahlberg/libnfs"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-sound - neutrino-online "]
+source = "regex"
+url = "https://studio-neutrino.com/downloads/v${NEUTRINO_PV}/"
+regex = "neutrino-online-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" x11-drivers - xf86-input-wacom "]
+source = "github"
+github = "linuxwacom/xf86-input-wacom"
+use_latest_release = true
+
+# Git Template
+[" sys-libs - libcap "]
+source = "git"
+git = "https://git.kernel.org/pub/scm/libs/libcap/libcap.git/snapshot/"
+
+# FTP HTTP HTTPS Template
+[" x11-drivers - xf86-video-intel "]
+source = "regex"
+url = "http://anduin.linuxfromscratch.org/BLFS/"
+regex = "xf86-video-intel-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-misc - ca-certificates "]
+source = "regex"
+url = "https://ftp.jp.debian.org/debian/pool/main/c/"
+regex = "ca-certificates-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sys-devel - cc65 "]
+source = "github"
+github = "cc65/cc65"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-libs - libstatgrab "]
+source = "regex"
+url = "http://www.mirrorservice.org/sites/ftp.i-scream.org/pub/i-scream/libstatgrab/"
+regex = "libstatgrab-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - libtpms "]
+source = "github"
+github = "stefanberger/libtpms"
+use_latest_release = true
+
+# GitHub Template
+[" dev-cpp - gtest "]
+source = "github"
+github = "google/googletest"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - opus-tools "]
+source = "regex"
+url = "https://downloads.xiph.org/releases/opus/"
+regex = "opus-tools-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-cpp - notcurses "]
+source = "github"
+github = "dankamongmen/notcurses"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-arch - cabextract "]
+source = "regex"
+url = "https://www.cabextract.org.uk/"
+regex = "cabextract-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libsdl2 "]
+source = "regex"
+url = "http://www.libsdl.org/release/"
+regex = "libsdl2-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-arch - dpkg "]
+source = "regex"
+url = "http://ftp.jp.debian.org/debian/pool/main/d//${P/-/"
+regex = "dpkg-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - lttng-ust "]
+source = "regex"
+url = "https://lttng.org/files/"
+regex = "lttng-ust-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - speex "]
+source = "regex"
+url = "http://downloads.xiph.org/releases/speex/"
+regex = "speex-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-libs - libmnl "]
+source = "regex"
+url = "https://netfilter.org/projects/libmnl/files/"
+regex = "libmnl-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libmatroska "]
+source = "regex"
+url = "https://dl.matroska.org/downloads/libmatroska/"
+regex = "libmatroska-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - libass "]
+source = "github"
+github = "libass/libass"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libatasmart "]
+source = "regex"
+url = "http://0pointer.de/public/"
+regex = "libatasmart-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libburn "]
+source = "regex"
+url = "http://files.libburnia-project.org/releases/"
+regex = "libburn-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libaom "]
+source = "regex"
+url = "https://storage.googleapis.com/aom-releases/"
+regex = "libaom-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - xapian "]
+source = "regex"
+url = "http://oligarchy.co.uk/xapian/"
+regex = "xapian-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-misc - figlet "]
+source = "regex"
+url = "ftp://ftp.figlet.org/pub/figlet/program/unix/"
+regex = "figlet-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - opencl-icd-loader "]
+source = "github"
+github = "KhronosGroup/OpenCL-ICD-Loader"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-text - libebook "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "libebook-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sys-fs - udev "]
+source = "github"
+github = "systemd/systemd"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - tre "]
+source = "regex"
+url = "https://laurikari.net/tre/"
+regex = "tre-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-apps - kmod "]
+source = "regex"
+url = "https://mirrors.edge.kernel.org/pub/linux/utils/kernel/kmod/"
+regex = "kmod-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-text - docbook-xsl-nons-stylesheets "]
+source = "github"
+github = "docbook/xslt10-stylesheets"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" games-engines - scummvm "]
+source = "regex"
+url = "https://scummvm.org/frs/scummvm/"
+regex = "scummvm-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - umfpack "]
+source = "regex"
+url = "http://202.36.178.9/sage/"
+regex = "umfpack-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - newt "]
+source = "regex"
+url = "https://releases.pagure.org/newt/"
+regex = "newt-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libpreludedb "]
+source = "regex"
+url = "https://www.prelude-siem.org/attachments/download/1171/"
+regex = "libpreludedb-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - id3lib "]
+source = "regex"
+url = "https://download.sourceforge.net//${P/"
+regex = "id3lib-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-arch - zstd "]
+source = "github"
+github = "facebook/zstd"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - phonon "]
+source = "regex"
+url = "http://download.kde.org/stable/phonon/"
+regex = "phonon-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-sound - gsm "]
+source = "regex"
+url = "http://deb.debian.org/debian/pool/main/libg/libgsm/"
+regex = "gsm-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - nsync "]
+source = "github"
+github = "google/nsync"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - gst-plugins-good "]
+source = "regex"
+url = "https://gstreamer.freedesktop.org/src/"
+regex = "gst-plugins-good-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - xmlsec "]
+source = "regex"
+url = "https://www.aleksey.com/xmlsec/download/"
+regex = "xmlsec-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-db - unixODBC "]
+source = "regex"
+url = "ftp://ftp.unixodbc.org/pub/"
+regex = "unixODBC-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-video - avisynth "]
+source = "github"
+github = "AviSynth/AviSynthPlus"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - fstrm "]
+source = "regex"
+url = "https://dl.farsightsecurity.com/dist/"
+regex = "fstrm-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-cpp - clucene "]
+source = "regex"
+url = "https://downloads.sourceforge.net/clucene/"
+regex = "clucene-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libisofs "]
+source = "regex"
+url = "http://files.libburnia-project.org/releases/"
+regex = "libisofs-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - desktop-file-utils "]
+source = "regex"
+url = "https://www.freedesktop.org/software/desktop-file-utils/releases/"
+regex = "desktop-file-utils-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-emulation - spice "]
+source = "regex"
+url = "https://www.spice-space.org/download/releases/spice-server/"
+regex = "spice-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-libs - motif "]
+source = "regex"
+url = "https://download.sourceforge.net/project/motif/Motif%20%20Source%20Code/"
+regex = "motif-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - wv "]
+source = "regex"
+url = "http://www.abisource.com/downloads/wv/"
+regex = "wv-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-db - mariadb "]
+source = "regex"
+url = "https://downloads.mariadb.org/interstitial//source/"
+regex = "mariadb-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - openal "]
+source = "regex"
+url = "https://www.openal-soft.org/openal-releases/"
+regex = "openal-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-gfx - zbar "]
+source = "regex"
+url = "https://linuxtv.org/downloads/"
+regex = "zbar-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - ilmbase "]
+source = "github"
+github = "AcademySoftwareFoundation/openexr"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-cluster - ceph "]
+source = "regex"
+url = "https://download.ceph.com/tarballs/"
+regex = "ceph-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - dotconf "]
+source = "github"
+github = "williamh/dotconf"
+use_latest_release = true
+
+# GitHub Template
+[" sys-devel - flex "]
+source = "github"
+github = "westes/flex"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-text - libmwaw "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "libmwaw-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libev "]
+source = "regex"
+url = "http://dist.schmorp.de/"
+regex = "libev-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" xfce-base - xfce4-settings "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce//${PV%.*}/"
+regex = "xfce4-settings-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - antlr-c "]
+source = "github"
+github = "${MY_PN}/${MY_PN}3"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" mail-mta - postfix "]
+source = "regex"
+url = "http://mirror.postfix.jp/postfix-release/official/"
+regex = "postfix-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-util - vulkan-headers "]
+source = "github"
+github = "KhronosGroup/${MY_PN}"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-video - parole "]
+source = "regex"
+url = "http://archive.xfce.org/src/apps//${PV%.*}/"
+regex = "parole-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-libs - libmbim "]
+source = "regex"
+url = "https://www.freedesktop.org/software/libmbim/"
+regex = "libmbim-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" xfce-base - exo "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce//${PV%.*}/"
+regex = "exo-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-libs - libnsl "]
+source = "github"
+github = "thkukuk/libnsl"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-libs - timezone-data "]
+source = "regex"
+url = "https://data.iana.org/time-zones/releases/"
+regex = "timezone-data-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sci-libs - lapack "]
+source = "github"
+github = "Reference-LAPACK/lapack"
+use_latest_release = true
+
+# GitHub Template
+[" media-libs - osl "]
+source = "github"
+github = "imageworks/OpenShadingLanguage"
+use_latest_release = true
+
+# GitHub Template
+[" dev-libs - capstone "]
+source = "github"
+github = "capstone-engine/capstone"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" games-roguelike - nethack "]
+source = "regex"
+url = "https://www.nethack.org/download/"
+regex = "nethack-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-gfx - ristretto "]
+source = "regex"
+url = "http://archive.xfce.org/src/apps//${PV%.*}/"
+regex = "ristretto-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-base - xcb-proto "]
+source = "regex"
+url = "https://xcb.freedesktop.org/dist/"
+regex = "xcb-proto-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-libs - libsmi "]
+source = "regex"
+url = "https://www.ibr.cs.tu-bs.de/projects/libsmi/download/"
+regex = "libsmi-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" games-engines - box2d "]
+source = "github"
+github = "erincatto/Box2D"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" net-irc - hexchat "]
+source = "regex"
+url = "https://dl.hexchat.net/hexchat/"
+regex = "hexchat-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libressl "]
+source = "regex"
+url = "https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/"
+regex = "libressl-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" games-engines - renpy "]
+source = "regex"
+url = "https://www.renpy.org/dl/"
+regex = "renpy-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - cholmod "]
+source = "regex"
+url = "http://202.36.178.9/sage/"
+regex = "cholmod-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - inih "]
+source = "github"
+github = "benhoyt/inih"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-util - gyp "]
+source = "regex"
+url = "https://home.apache.org/~arfrever/distfiles/"
+regex = "gyp-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - klu "]
+source = "regex"
+url = "http://202.36.178.9/sage/"
+regex = "klu-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - xmlto "]
+source = "regex"
+url = "https://releases.pagure.org/xmlto/"
+regex = "xmlto-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-lang - yasm "]
+source = "regex"
+url = "http://www.tortall.net/projects/yasm/releases/"
+regex = "yasm-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-misc - iputils "]
+source = "github"
+github = "iputils/iputils"
+use_latest_release = true
+
+# GitLab Template
+[" media-libs - svt-av1 "]
+source = "gitlab"
+gitlab = "AOMediaCodec/SVT-AV1"
+use_max_tag = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - jansson "]
+source = "regex"
+url = "http://www.digip.org/jansson/releases/"
+regex = "jansson-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - coinor-cbc "]
+source = "regex"
+url = "http://www.coin-or.org/download/source/${MYPN}/"
+regex = "coinor-cbc-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-libs - xcb-util-keysyms "]
+source = "regex"
+url = "https://xcb.freedesktop.org/dist/"
+regex = "xcb-util-keysyms-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sys-process - lsof "]
+source = "github"
+github = "lsof-org/lsof"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-libs - mtdev "]
+source = "regex"
+url = "http://bitmath.org/code/mtdev/"
+regex = "mtdev-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - raptor "]
+source = "regex"
+url = "http://download.librdf.org/source/"
+regex = "raptor-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - opencolorio "]
+source = "github"
+github = "AcademySoftwareFoundation/OpenColorIO"
+use_latest_release = true
+
+# GitHub Template
+[" dev-libs - libevent "]
+source = "github"
+github = "libevent/libevent"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" x11-libs - xcb-util-wm "]
+source = "regex"
+url = "https://xcb.freedesktop.org/dist/"
+regex = "xcb-util-wm-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libpcre2 "]
+source = "regex"
+url = "https://ftp.pcre.org/pub/pcre/"
+regex = "libpcre2-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-java - openjdk "]
+source = "github"
+github = "openjdk/jdk17u"
+use_latest_release = true
+
+# GitHub Template
+[" dev-libs - xsimd "]
+source = "github"
+github = "xtensor-stack/xsimd"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-emulation - libcacard "]
+source = "regex"
+url = "https://www.spice-space.org/download/libcacard/"
+regex = "libcacard-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" azusa - baselayout "]
+source = "github"
+github = "AzusaOS/azusa-baselayout"
+use_latest_release = true
+
+# GitHub Template
+[" app-crypt - argon2 "]
+source = "github"
+github = "P-H-C/phc-winner-argon2"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - portaudio "]
+source = "regex"
+url = "http://files.portaudio.com/archives/"
+regex = "portaudio-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-util - ccache "]
+source = "github"
+github = "ccache/ccache"
+use_latest_release = true
+
+# GitHub Template
+[" net-analyzer - gvm-tools "]
+source = "github"
+github = "greenbone/gvm-tools"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-arch - bzip2 "]
+source = "regex"
+url = "https://sourceware.org/pub/bzip2/"
+regex = "bzip2-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-video - ffmpeg "]
+source = "regex"
+url = "https://ffmpeg.org/releases/"
+regex = "ffmpeg-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sys-devel - llvm-cmake "]
+source = "github"
+github = "llvm/llvm-project"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - mesa "]
+source = "regex"
+url = "https://mesa.freedesktop.org/archive/"
+regex = "mesa-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - hdf5 "]
+source = "regex"
+url = "https://www.hdfgroup.org/ftp/HDF5/releases/-${MAJOR_P}/${MY_P}/src/"
+regex = "hdf5-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - intltool "]
+source = "regex"
+url = "https://launchpad.net/intltool/trunk//+download/"
+regex = "intltool-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-libs - serf "]
+source = "regex"
+url = "https://archive.apache.org/dist/serf/"
+regex = "serf-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-text - cmark "]
+source = "github"
+github = "commonmark/cmark"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" x11-libs - xcb-util-renderutil "]
+source = "regex"
+url = "https://xcb.freedesktop.org/dist/"
+regex = "xcb-util-renderutil-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sys-block - libzbd "]
+source = "github"
+github = "westerndigitalcorporation/libzbd"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - flac "]
+source = "regex"
+url = "https://downloads.xiph.org/releases/flac/"
+regex = "flac-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-video - mkvtoolnix "]
+source = "regex"
+url = "https://mkvtoolnix.download/sources/"
+regex = "mkvtoolnix-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-cpp - robin-map "]
+source = "github"
+github = "Tessil/robin-map"
+use_latest_release = true
+
+# GitHub Template
+[" media-libs - openimageio "]
+source = "github"
+github = "OpenImageIO/oiio"
+use_latest_release = true
+
+# GitHub Template
+[" app-accessibility - speech-dispatcher "]
+source = "github"
+github = "brailcom/speechd"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - libmikmod "]
+source = "regex"
+url = "https://download.sourceforge.net/mikmod/"
+regex = "libmikmod-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - cudnn "]
+source = "regex"
+url = "https://developer.download.nvidia.com/compute/redist/cudnn/v${PV%.*}/local_installers/${CUDA_V}/"
+regex = "cudnn-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-python - torchvision "]
+source = "github"
+github = "pytorch/vision"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-editors - vscode "]
+source = "regex"
+url = "https://update.code.visualstudio.com//linux-$(vscodearch)/"
+regex = "vscode-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - weston "]
+source = "regex"
+url = "https://wayland.freedesktop.org/releases/"
+regex = "weston-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-python - thrift "]
+source = "github"
+github = "apache/thrift"
+use_latest_release = true
+
+# GitHub Template
+[" media-video - rav1e "]
+source = "github"
+github = "xiph/rav1e"
+use_latest_release = true
+
+# GitHub Template
+[" dev-libs - rocksdb "]
+source = "github"
+github = "facebook/rocksdb"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-apps - dbus "]
+source = "regex"
+url = "https://dbus.freedesktop.org/releases/dbus/"
+regex = "dbus-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-db - lmdb "]
+source = "github"
+github = "LMDB/lmdb"
+use_latest_release = true
+
+# GitHub Template
+[" dev-libs - libffi "]
+source = "github"
+github = "libffi/libffi"
+use_latest_release = true
+
+# GitHub Template
+[" dev-util - binaryen "]
+source = "github"
+github = "WebAssembly/binaryen"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-fonts - mikachan-font-otf "]
+source = "regex"
+url = "https://dev.gentoo.org/~flameeyes/dist/"
+regex = "mikachan-font-otf-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-editors - vim "]
+source = "github"
+github = "vim/vim"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-sound - mpg123 "]
+source = "regex"
+url = "https://www.mpg123.org/download/"
+regex = "mpg123-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - sdl-ttf "]
+source = "regex"
+url = "http://www.libsdl.org/projects/SDL_ttf/release/"
+regex = "sdl-ttf-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-base - xorg-proto "]
+source = "regex"
+url = "https://xorg.freedesktop.org/archive/individual/proto/"
+regex = "xorg-proto-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - colamd "]
+source = "regex"
+url = "http://202.36.178.9/sage/"
+regex = "colamd-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - leveldb "]
+source = "github"
+github = "google/leveldb"
+use_latest_release = true
+
+# GitHub Template
+[" dev-games - vgmstream "]
+source = "github"
+github = "vgmstream/vgmstream"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - dav1d "]
+source = "regex"
+url = "https://code.videolan.org/videolan/dav1d/-/archive/"
+regex = "dav1d-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-libs - libdrm "]
+source = "regex"
+url = "https://dri.freedesktop.org/libdrm/"
+regex = "libdrm-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-arch - libarchive "]
+source = "regex"
+url = "https://www.libarchive.org/downloads/"
+regex = "libarchive-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - jemalloc "]
+source = "github"
+github = "jemalloc/jemalloc"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - nss "]
+source = "regex"
+url = "https://ftp.mozilla.org/pub/security/nss/releases/NSS_${PV//./_}_RTM/src/"
+regex = "nss-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# Git Template
+[" net-wireless - wireless-tools "]
+source = "git"
+git = "https://hewlettpackard.github.io/wireless-tools/"
+
+# FTP HTTP HTTPS Template
+[" net-print - gutenprint "]
+source = "regex"
+url = "https://downloads.sourceforge.net/gimp-print/"
+regex = "gutenprint-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-print - cups-filters "]
+source = "regex"
+url = "https://www.openprinting.org/download/cups-filters/"
+regex = "cups-filters-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - uriparser "]
+source = "github"
+github = "uriparser/uriparser"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-auth - polkit "]
+source = "regex"
+url = "https://www.freedesktop.org/software/polkit/releases/"
+regex = "polkit-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - userspace-rcu "]
+source = "regex"
+url = "https://lttng.org/files/urcu/"
+regex = "userspace-rcu-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-libs - libqmi "]
+source = "regex"
+url = "https://www.freedesktop.org/software/libqmi/"
+regex = "libqmi-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-arch - lz4 "]
+source = "github"
+github = "lz4/lz4"
+use_latest_release = true
+
+# GitHub Template
+[" sci-mathematics - cvc4 "]
+source = "github"
+github = "CVC4/CVC4-archived"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-arch - lha "]
+source = "regex"
+url = "https://osdn.net/projects/lha/downloads/22231/"
+regex = "lha-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-misc - xdg-utils "]
+source = "regex"
+url = "https://portland.freedesktop.org/download/"
+regex = "xdg-utils-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-util - cargo-c "]
+source = "github"
+github = "lu-zero/cargo-c"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-forensics - unhide "]
+source = "regex"
+url = "http://sourceforge.net/projects/unhide/files/"
+regex = "unhide-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - sbc "]
+source = "regex"
+url = "https://www.kernel.org/pub/linux/bluetooth/"
+regex = "sbc-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-fonts - dejavu "]
+source = "regex"
+url = "http://sourceforge.net/projects/dejavu/files/dejavu/"
+regex = "dejavu-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" xfce-base - garcon "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce//${PV%.*}/"
+regex = "garcon-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-devel - gcc-fortran "]
+source = "regex"
+url = "http://ftp.tsukuba.wide.ad.jp/software/gcc/releases/"
+regex = "gcc-fortran-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-util - re2c "]
+source = "github"
+github = "skvadrik/re2c"
+use_latest_release = true
+
+# GitHub Template
+[" sys-libs - libomp "]
+source = "github"
+github = "llvm/llvm-project"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - libopenmpt "]
+source = "regex"
+url = "https://lib.openmpt.org/files/libopenmpt/src/"
+regex = "libopenmpt-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - sord "]
+source = "regex"
+url = "http://download.drobilla.net/"
+regex = "sord-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - tiff "]
+source = "regex"
+url = "https://download.osgeo.org/libtiff/"
+regex = "tiff-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" games-rpg - bass "]
+source = "regex"
+url = "https://downloads.sourceforge.net/scummvm/"
+regex = "bass-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - scons "]
+source = "regex"
+url = "https://sourceforge.net/projects/scons/files/scons/"
+regex = "scons-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" www-client - google-chrome "]
+source = "regex"
+url = "https://dl.google.com/linux/chrome/deb/pool/main/g/-stable/"
+regex = "google-chrome-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-sound - vorbis-tools "]
+source = "regex"
+url = "http://downloads.xiph.org/releases/vorbis/"
+regex = "vorbis-tools-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - ntbtls "]
+source = "regex"
+url = "https://www.gnupg.org/ftp/gcrypt/"
+regex = "ntbtls-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-emulation - intel-sde "]
+source = "regex"
+url = "https://downloadmirror.intel.com/777395/"
+regex = "intel-sde-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - libavif "]
+source = "github"
+github = "AOMediaCodec/libavif"
+use_latest_release = true
+
+# GitHub Template
+[" dev-libs - libnl "]
+source = "github"
+github = "thom311/libnl"
+use_latest_release = true
+
+# GitHub Template
+[" dev-python - pyopenjtalk "]
+source = "github"
+github = "r9y9/open_jtalk"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - soxr "]
+source = "regex"
+url = "https://sourceforge.net/projects/soxr/files/"
+regex = "soxr-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libmodplug "]
+source = "regex"
+url = "https://downloads.sourceforge.net/project/modplug-xmms/libmodplug/"
+regex = "libmodplug-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-db - freetds "]
+source = "regex"
+url = "ftp://ftp.freetds.org/pub//current/"
+regex = "freetds-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-apps - usbutils "]
+source = "regex"
+url = "https://www.kernel.org/pub/linux/utils/usb/"
+regex = "usbutils-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" gui-libs - libwpe "]
+source = "regex"
+url = "https://wpewebkit.org/releases/"
+regex = "libwpe-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-auth - libyubikey "]
+source = "regex"
+url = "http://opensource.yubico.com/yubico-c/releases/"
+regex = "libyubikey-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-vpn - openvpn "]
+source = "regex"
+url = "https://build.openvpn.net/downloads/releases/"
+regex = "openvpn-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - ldl "]
+source = "regex"
+url = "http://202.36.178.9/sage/"
+regex = "ldl-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - iniparser "]
+source = "github"
+github = "ndevilla/iniparser"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libuv "]
+source = "regex"
+url = "https://dist.libuv.org/dist/v/"
+regex = "libuv-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" www-client - lynx "]
+source = "regex"
+url = "http://invisible-mirror.net/archives/lynx/tarballs/"
+regex = "lynx-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-nodejs - esbuild "]
+source = "github"
+github = "evanw/esbuild"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - opusfile "]
+source = "regex"
+url = "https://downloads.xiph.org/releases/opus/"
+regex = "opusfile-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-text - hunspell "]
+source = "github"
+github = "hunspell/hunspell"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" net-libs - farstream "]
+source = "regex"
+url = "https://freedesktop.org/software/farstream/releases/"
+regex = "farstream-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-libs - libiscsi "]
+source = "github"
+github = "sahlberg/libiscsi"
+use_latest_release = true
+
+# GitHub Template
+[" net-libs - rabbitmq-c "]
+source = "github"
+github = "alanxz/rabbitmq-c"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-sound - cdparanoia "]
+source = "regex"
+url = "http://downloads.xiph.org/releases/cdparanoia/"
+regex = "cdparanoia-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - libblockdev "]
+source = "github"
+github = "storaged-project/libblockdev"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-crypt - tpm-tools "]
+source = "regex"
+url = "https://download.sourceforge.net/trousers/"
+regex = "tpm-tools-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-misc - rsync "]
+source = "regex"
+url = "https://download.samba.org/pub/rsync/"
+regex = "rsync-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libixion "]
+source = "regex"
+url = "https://kohei.us/files/ixion/src/"
+regex = "libixion-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-libs - libnftnl "]
+source = "regex"
+url = "https://netfilter.org/projects//files/"
+regex = "libnftnl-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libaio "]
+source = "regex"
+url = "http://ftp.de.debian.org/debian/pool/main/liba/libaio/"
+regex = "libaio-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-misc - curl "]
+source = "regex"
+url = "https://curl.haxx.se/download/"
+regex = "curl-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-terms - xfce4-terminal "]
+source = "regex"
+url = "http://archive.xfce.org/src/apps//${PV%.*.*}/"
+regex = "xfce4-terminal-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libvorbis "]
+source = "regex"
+url = "http://downloads.xiph.org/releases/vorbis/"
+regex = "libvorbis-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-libs - tdb "]
+source = "regex"
+url = "http://samba.org/ftp/tdb/"
+regex = "tdb-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-shells - zsh "]
+source = "regex"
+url = "https://www.zsh.org/pub/"
+regex = "zsh-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitLab Template
+[" net-libs - libslirp "]
+source = "gitlab"
+gitlab = "slirp/libslirp"
+use_max_tag = true
+
+# FTP HTTP HTTPS Template
+[" x11-libs - libxcb "]
+source = "regex"
+url = "https://xcb.freedesktop.org/dist/"
+regex = "libxcb-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-misc - asterisk "]
+source = "regex"
+url = "https://downloads.asterisk.org/pub/telephony/asterisk/releases/"
+regex = "asterisk-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - sratom "]
+source = "regex"
+url = "https://download.drobilla.net/"
+regex = "sratom-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - ptex "]
+source = "github"
+github = "wdas/ptex"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" xfce-extra - xfce4-notifyd "]
+source = "regex"
+url = "http://archive.xfce.org/src/apps//${PV%.*}/"
+regex = "xfce4-notifyd-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - mandoc "]
+source = "regex"
+url = "https://mdocml.bsd.lv/snapshots/"
+regex = "mandoc-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libwebp "]
+source = "regex"
+url = "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/"
+regex = "libwebp-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-util - opencl-headers "]
+source = "github"
+github = "KhronosGroup/OpenCL-Headers"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - a52dec "]
+source = "regex"
+url = "http://liba52.sourceforge.net/files/"
+regex = "a52dec-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-lang - lua "]
+source = "regex"
+url = "http://www.lua.org/ftp/"
+regex = "lua-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" x11-libs - libva-intel-driver "]
+source = "github"
+github = "intel/intel-vaapi-driver"
+use_latest_release = true
+
+# GitHub Template
+[" media-libs - glfw "]
+source = "github"
+github = "glfw/glfw"
+use_latest_release = true
+
+# GitHub Template
+[" dev-cpp - yaml-cpp "]
+source = "github"
+github = "jbeder/yaml-cpp"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - libxspf "]
+source = "regex"
+url = "http://downloads.xiph.org/releases/xspf/"
+regex = "libxspf-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - rasqal "]
+source = "regex"
+url = "http://download.librdf.org/source/"
+regex = "rasqal-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-sound - pulseaudio "]
+source = "regex"
+url = "https://www.freedesktop.org/software//releases/"
+regex = "pulseaudio-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - babl "]
+source = "regex"
+url = "https://download.gimp.org/pub/babl/0.1/"
+regex = "babl-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - lzo "]
+source = "regex"
+url = "http://www.oberhumer.com/opensource/lzo/download/"
+regex = "lzo-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - codec2 "]
+source = "github"
+github = "drowe67/codec2"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-libs - libapparmor "]
+source = "regex"
+url = "https://launchpad.net/apparmor/${MY_PV}//+download/"
+regex = "libapparmor-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-emulation - wine-vanilla "]
+source = "regex"
+url = "https://dl.winehq.org/wine/source/8.x/"
+regex = "wine-vanilla-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - fontconfig "]
+source = "regex"
+url = "https://www.freedesktop.org/software/fontconfig/release/"
+regex = "fontconfig-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" games-roguelike - dwarf-fortress "]
+source = "regex"
+url = "http://www.bay12games.com/dwarves/"
+regex = "dwarf-fortress-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - libepubgen "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "libepubgen-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - gn "]
+source = "regex"
+url = "https://dev.gentoo.org/~sultan/distfiles/dev-util/gn/"
+regex = "gn-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-text - recode "]
+source = "github"
+github = "rrthomas/recode"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - x265 "]
+source = "regex"
+url = "https://bitbucket.org/multicoreware/x265_git/downloads/"
+regex = "x265-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - x264 "]
+source = "regex"
+url = "https://dev.gentoo.org/~aballier/distfiles/"
+regex = "x264-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - boehm-gc "]
+source = "github"
+github = "ivmai/bdwgc"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-util - mdds "]
+source = "regex"
+url = "https://kohei.us/files//src/"
+regex = "mdds-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - libmspub "]
+source = "regex"
+url = "https://dev-www.libreoffice.org/src/libmspub/"
+regex = "libmspub-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-lang - zig "]
+source = "github"
+github = "ziglang/zig"
+use_latest_release = true
+
+# GitHub Template
+[" dev-libs - libutf8proc "]
+source = "github"
+github = "JuliaStrings/utf8proc"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-fs - e2fsprogs "]
+source = "regex"
+url = "https://sourceforge.net/projects//files//v/"
+regex = "e2fsprogs-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-analyzer - nmap "]
+source = "regex"
+url = "https://nmap.org/dist/"
+regex = "nmap-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - opencore-amr "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "opencore-amr-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libdaemon "]
+source = "regex"
+url = "http://0pointer.de/lennart/projects/libdaemon/"
+regex = "libdaemon-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - libstaroffice "]
+source = "regex"
+url = "http://dev-www.libreoffice.org/src/"
+regex = "libstaroffice-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - wolfssl "]
+source = "github"
+github = "wolfSSL/wolfssl"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" www-client - links "]
+source = "regex"
+url = "http://.twibright.com/download/"
+regex = "links-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" x11-libs - wxGTK "]
+source = "github"
+github = "wxWidgets/wxWidgets"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-crypt - yubihsm-connector "]
+source = "regex"
+url = "https://developers.yubico.com/yubihsm-connector/Releases/"
+regex = "yubihsm-connector-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - lv2 "]
+source = "regex"
+url = "https://lv2plug.in/spec/"
+regex = "lv2-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-libs - neon "]
+source = "regex"
+url = "http://webdav.org/neon/"
+regex = "neon-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - libspectre "]
+source = "regex"
+url = "https://libspectre.freedesktop.org/releases/"
+regex = "libspectre-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - liborcus "]
+source = "regex"
+url = "https://kohei.us/files/orcus/src/"
+regex = "liborcus-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sci-libs - adolc "]
+source = "github"
+github = "coin-or/ADOL-C"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sci-libs - dcmtk "]
+source = "regex"
+url = "https://dicom.offis.de/download/dcmtk/release/"
+regex = "dcmtk-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-gfx - exiv2 "]
+source = "github"
+github = "Exiv2/exiv2"
+use_latest_release = true
+
+# GitHub Template
+[" net-misc - vde "]
+source = "github"
+github = "virtualsquare/vde-2"
+use_latest_release = true
+
+# GitHub Template
+[" sci-libs - colpack "]
+source = "github"
+github = "CSCsw/ColPack"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-fs - mdadm "]
+source = "regex"
+url = "https://www.kernel.org/pub/linux/utils/raid/mdadm/"
+regex = "mdadm-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libfpx "]
+source = "regex"
+url = "ftp://ftp.imagemagick.org/pub/ImageMagick/delegates/"
+regex = "libfpx-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - rocr-runtime "]
+source = "github"
+github = "RadeonOpenCompute/ROCR-Runtime"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-util - itstool "]
+source = "regex"
+url = "http://files.itstool.org/itstool/"
+regex = "itstool-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libpagemaker "]
+source = "regex"
+url = "http://dev-www.libreoffice.org/src/"
+regex = "libpagemaker-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - libspiro "]
+source = "github"
+github = "fontforge/libspiro"
+use_latest_release = true
+
+# GitHub Template
+[" media-libs - Field3D "]
+source = "github"
+github = "imageworks/Field3D"
+use_latest_release = true
+
+# GitHub Template
+[" dev-util - spirv-headers "]
+source = "github"
+github = "KhronosGroup/SPIRV-Headers"
+use_latest_release = true
+
+# GitHub Template
+[" media-libs - opensubdiv "]
+source = "github"
+github = "PixarAnimationStudios/OpenSubdiv"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-vcs - subversion "]
+source = "regex"
+url = "https://archive.apache.org/dist/subversion/"
+regex = "subversion-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-misc - freerdp "]
+source = "github"
+github = "FreeRDP/FreeRDP"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-emulation - lxc "]
+source = "regex"
+url = "https://linuxcontainers.org/downloads/lxc/"
+regex = "lxc-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# Git Template
+[" media-video - rtmpdump "]
+source = "git"
+git = "http://git.ffmpeg.org/gitweb/rtmpdump.git/snapshot/"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libmp4v2 "]
+source = "regex"
+url = "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mp4v2/"
+regex = "libmp4v2-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" xfce-base - libxfce4ui "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce//${PV:0:4}/"
+regex = "libxfce4ui-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-db - cockroach-bin "]
+source = "regex"
+url = "https://binaries.cockroachdb.com/"
+regex = "cockroach-bin-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - fftw "]
+source = "regex"
+url = "http://www.fftw.org/"
+regex = "fftw-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libisoburn "]
+source = "regex"
+url = "http://files.libburnia-project.org/releases/"
+regex = "libisoburn-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sys-libs - libseccomp "]
+source = "github"
+github = "seccomp/libseccomp"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sci-libs - amd "]
+source = "regex"
+url = "http://202.36.178.9/sage/"
+regex = "amd-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-p2p - prysm "]
+source = "github"
+github = "prysmaticlabs/prysm"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-lang - luajit "]
+source = "regex"
+url = "https://luajit.org/download/"
+regex = "luajit-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-ftp - vsftpd "]
+source = "regex"
+url = "https://security.appspot.com/downloads/"
+regex = "vsftpd-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - imlib2 "]
+source = "regex"
+url = "https://downloads.sourceforge.net/enlightenment/"
+regex = "imlib2-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-libs - pixman "]
+source = "regex"
+url = "https://www.cairographics.org/releases/"
+regex = "pixman-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-gfx - argyllcms "]
+source = "regex"
+url = "http://www.argyllcms.com/"
+regex = "argyllcms-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-analyzer - rrdtool "]
+source = "github"
+github = "oetiker/rrdtool-1.x"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-doc - autobook "]
+source = "regex"
+url = "https://sourceware.org/autobook/"
+regex = "autobook-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - glew "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "glew-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-libs - ldb "]
+source = "regex"
+url = "https://www.samba.org/ftp/"
+regex = "ldb-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-python - auto-gptq "]
+source = "github"
+github = "AutoGPTQ/AutoGPTQ"
+use_latest_release = true
+
+# GitHub Template
+[" media-libs - usd "]
+source = "github"
+github = "PixarAnimationStudios/USD"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-sound - twolame "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "twolame-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - opus "]
+source = "regex"
+url = "https://archive.mozilla.org/pub/opus/"
+regex = "opus-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-admin - sysklogd "]
+source = "github"
+github = "troglobit/sysklogd"
+use_latest_release = true
+
+# Gnome Gitlab Template
+[" dev-libs - libxml2 "]
+source = "gitlab"
+gitlab = "GNOME/libxml2"
+use_max_tag = true
+prefix = "v"
+
+# Git Template
+[" sys-apps - keyutils "]
+source = "git"
+git = "https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git/snapshot/"
+
+# FTP HTTP HTTPS Template
+[" www-client - firefox "]
+source = "regex"
+url = "https://archive.mozilla.org/pub/firefox/releases//source/"
+regex = "firefox-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libbsd "]
+source = "regex"
+url = "https://libbsd.freedesktop.org/releases/"
+regex = "libbsd-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitLab Template
+[" x11-libs - cairo "]
+source = "gitlab"
+gitlab = "cairo/cairo"
+use_max_tag = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - json-c "]
+source = "regex"
+url = "https://s3.amazonaws.com/json-c_releases/releases/"
+regex = "json-c-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libpng "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "libpng-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - suitesparseconfig "]
+source = "regex"
+url = "http://202.36.178.9/sage/"
+regex = "suitesparseconfig-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - libetonyek "]
+source = "regex"
+url = "https://dev-www.libreoffice.org/src/libetonyek/"
+regex = "libetonyek-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-editors - nano "]
+source = "regex"
+url = "https://www.nano-editor.org/dist/v5/"
+regex = "nano-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - grantlee "]
+source = "regex"
+url = "http://downloads.grantlee.org/"
+regex = "grantlee-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - faad2 "]
+source = "github"
+github = "knik0/faad2"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" x11-libs - fltk "]
+source = "regex"
+url = "https://www.fltk.org/pub/fltk/"
+regex = "fltk-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-gfx - blender "]
+source = "regex"
+url = "https://download.blender.org/source/"
+regex = "blender-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitLab Template
+[" net-p2p - bitcoin-cash-node "]
+source = "gitlab"
+gitlab = "bitcoin-cash-node/bitcoin-cash-node"
+use_max_tag = true
+
+# GitHub Template
+[" app-text - asciidoc "]
+source = "github"
+github = "asciidoc-py/asciidoc-py"
+use_latest_release = true
+
+# GitHub Template
+[" media-libs - libmypaint "]
+source = "github"
+github = "mypaint/libmypaint"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-util - pkgconf "]
+source = "regex"
+url = "https://distfiles.dereferenced.org/"
+regex = "pkgconf-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-crypt - trousers "]
+source = "regex"
+url = "https://download.sourceforge.net/trousers/"
+regex = "trousers-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libcdr "]
+source = "regex"
+url = "https://dev-www.libreoffice.org/src/libcdr/"
+regex = "libcdr-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - wgetpaste "]
+source = "regex"
+url = "http://wgetpaste.zlin.dk/"
+regex = "wgetpaste-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - gst-plugins-base "]
+source = "regex"
+url = "https://gstreamer.freedesktop.org/src/"
+regex = "gst-plugins-base-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-libs - webkit-gtk "]
+source = "regex"
+url = "https://www.webkitgtk.org/releases/"
+regex = "webkit-gtk-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libmpeg2 "]
+source = "regex"
+url = "http://libmpeg2.sourceforge.net/files/"
+regex = "libmpeg2-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sci-mathematics - z3 "]
+source = "github"
+github = "Z3Prover/z3"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" net-analyzer - tcpdump "]
+source = "regex"
+url = "https://www.tcpdump.org/release/"
+regex = "tcpdump-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - thrift "]
+source = "regex"
+url = "https://archive.apache.org/dist/"
+regex = "thrift-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-arch - upx "]
+source = "github"
+github = "upx/upx"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - wayland "]
+source = "regex"
+url = "https://wayland.freedesktop.org/releases/"
+regex = "wayland-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-misc - modemmanager "]
+source = "regex"
+url = "https://www.freedesktop.org/software/ModemManager/"
+regex = "modemmanager-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-php - pecl-imagick "]
+source = "regex"
+url = "https://pecl.php.net/get/"
+regex = "pecl-imagick-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - mupdf "]
+source = "regex"
+url = "https://mupdf.com/downloads/archive/"
+regex = "mupdf-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-crypt - johntheripper-jumbo "]
+source = "github"
+github = "openwall/john"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" x11-terms - xterm "]
+source = "regex"
+url = "http://invisible-mirror.net/archives/"
+regex = "xterm-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - apr-util "]
+source = "regex"
+url = "http://ftp.riken.jp/net/apache/apr/"
+regex = "apr-util-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" xfce-extra - tumbler "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce//${PV%.*}/"
+regex = "tumbler-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-doc - doxygen "]
+source = "regex"
+url = "http://doxygen.nl/files/"
+regex = "doxygen-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - vulkan-loader "]
+source = "github"
+github = "KhronosGroup/${MY_PN}"
+use_latest_release = true
+
+# GitHub Template
+[" media-gfx - wkhtmltox "]
+source = "github"
+github = "wkhtmltopdf/packaging"
+use_latest_release = true
+
+# GitHub Template
+[" dev-libs - libatomic_ops "]
+source = "github"
+github = "ivmai/libatomic_ops"
+use_latest_release = true
+
+# GitHub Template
+[" sys-libs - libselinux "]
+source = "github"
+github = "SELinuxProject/selinux"
+use_latest_release = true
+
+# GitHub Template
+[" dev-util - spirv-tools "]
+source = "github"
+github = "KhronosGroup/${MY_PN}"
+use_latest_release = true
+
+# GitHub Template
+[" dev-util - meson "]
+source = "github"
+github = "mesonbuild/meson"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-crypt - libmd "]
+source = "regex"
+url = "https://archive.hadrons.org/software/libmd/"
+regex = "libmd-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" xfce-base - xfce4-appfinder "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce//${PV%.*}/"
+regex = "xfce4-appfinder-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libgpg-error "]
+source = "regex"
+url = "https://www.gnupg.org/ftp/gcrypt/"
+regex = "libgpg-error-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - djbfft "]
+source = "regex"
+url = "http://cr.yp.to/djbfft/"
+regex = "djbfft-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-admin - ansible "]
+source = "regex"
+url = "https://releases.ansible.com/"
+regex = "ansible-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-misc - colord "]
+source = "regex"
+url = "https://www.freedesktop.org/software/colord/releases/"
+regex = "colord-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-fs - lvm2 "]
+source = "regex"
+url = "http://mirrors.kernel.org/sourceware/lvm2/"
+regex = "lvm2-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-apps - luit "]
+source = "regex"
+url = "https://invisible-mirror.net/archives/"
+regex = "luit-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - strace "]
+source = "regex"
+url = "https://strace.io/files/5.2/"
+regex = "strace-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# Git Template
+[" sys-apps - portage "]
+source = "git"
+git = "https://gitweb.gentoo.org/proj/portage.git/snapshot/"
+
+# GitHub Template
+[" dev-lang - solidity "]
+source = "github"
+github = "ethereum/solidity"
+use_latest_release = true
+
+# GitHub Template
+[" net-libs - zeromq "]
+source = "github"
+github = "zeromq/libzmq"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-forensics - scalpel "]
+source = "regex"
+url = "http://www.digitalforensicssolutions.com/Scalpel/"
+regex = "scalpel-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-libs - nodejs "]
+source = "regex"
+url = "https://nodejs.org/dist/v/"
+regex = "nodejs-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-cpp - pystring "]
+source = "github"
+github = "imageworks/pystring"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - gstreamer "]
+source = "regex"
+url = "https://gstreamer.freedesktop.org/src/"
+regex = "gstreamer-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-db - sqlite "]
+source = "regex"
+url = "https://sqlite.org/2023/"
+regex = "sqlite-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - btf "]
+source = "regex"
+url = "http://202.36.178.9/sage/"
+regex = "btf-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-misc - yt-dlp "]
+source = "github"
+github = "yt-dlp/yt-dlp"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" net-libs - telepathy-glib "]
+source = "regex"
+url = "https://telepathy.freedesktop.org/releases/telepathy-glib/"
+regex = "telepathy-glib-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - isl "]
+source = "regex"
+url = "https://libisl.sourceforge.io/"
+regex = "isl-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libmad "]
+source = "regex"
+url = "https://download.sourceforge.net/mad/"
+regex = "libmad-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - gegl "]
+source = "regex"
+url = "https://download.gimp.org/pub//${PV:0:3}/"
+regex = "gegl-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - clew "]
+source = "github"
+github = "martijnberger/clew"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-text - xmlstarlet "]
+source = "regex"
+url = "https://download.sourceforge.net/xmlstar/"
+regex = "xmlstarlet-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - poppler "]
+source = "regex"
+url = "https://poppler.freedesktop.org/"
+regex = "poppler-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-cpp - highway "]
+source = "github"
+github = "google/highway"
+use_latest_release = true
+
+# GitHub Template
+[" app-accessibility - flite "]
+source = "github"
+github = "festvox/flite"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - libfreehand "]
+source = "regex"
+url = "https://dev-www.libreoffice.org/src/libfreehand/"
+regex = "libfreehand-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-lang - ruby "]
+source = "regex"
+url = "https://cache.ruby-lang.org/pub/ruby/${PV%.*}/"
+regex = "ruby-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-dns - unbound "]
+source = "regex"
+url = "http://www.unbound.net/downloads/"
+regex = "unbound-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - nv-codec-headers "]
+source = "github"
+github = "FFmpeg/nv-codec-headers"
+use_latest_release = true
+
+# GitHub Template
+[" media-libs - libsndfile "]
+source = "github"
+github = "libsndfile/libsndfile"
+use_latest_release = true
+
+# GitHub Template
+[" app-admin - syslog-ng "]
+source = "github"
+github = "balabit/syslog-ng"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-util - ftjam "]
+source = "regex"
+url = "http://david.freetype.org/jam/"
+regex = "ftjam-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - libyaml "]
+source = "github"
+github = "yaml/libyaml"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-util - cppunit "]
+source = "regex"
+url = "https://dev-www.libreoffice.org/src/"
+regex = "cppunit-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-libs - xcb-util "]
+source = "regex"
+url = "https://xcb.freedesktop.org/dist/"
+regex = "xcb-util-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-p2p - dogecoin "]
+source = "github"
+github = "dogecoin/dogecoin"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-nodejs - node-gyp "]
+source = "regex"
+url = "https://registry.npmjs.org//-/"
+regex = "node-gyp-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libzmf "]
+source = "regex"
+url = "http://dev-www.libreoffice.org/src/"
+regex = "libzmf-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-admin - keepassxc "]
+source = "github"
+github = "keepassxreboot/keepassxc"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - serd "]
+source = "regex"
+url = "https://download.drobilla.net/"
+regex = "serd-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-text - qpdf "]
+source = "github"
+github = "qpdf/qpdf"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libpthread-stubs "]
+source = "regex"
+url = "https://xcb.freedesktop.org/dist/"
+regex = "libpthread-stubs-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-irc - weechat "]
+source = "regex"
+url = "https://weechat.org/files/src/"
+regex = "weechat-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - poppler-data "]
+source = "regex"
+url = "https://poppler.freedesktop.org/"
+regex = "poppler-data-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-libs - libxklavier "]
+source = "regex"
+url = "https://people.freedesktop.org/~svu/"
+regex = "libxklavier-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-apps - fakeroot "]
+source = "regex"
+url = "http://ftp.jp.debian.org/debian/pool/main/${PN:0:1}//${P/-/"
+regex = "fakeroot-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - ucl "]
+source = "regex"
+url = "http://www.oberhumer.com/opensource/ucl/download/"
+regex = "ucl-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - giflib "]
+source = "regex"
+url = "https://sourceforge.net/projects/giflib/files/"
+regex = "giflib-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - qhull "]
+source = "github"
+github = "qhull/qhull"
+use_latest_release = true
+
+# GitHub Template
+[" net-im - telegram-desktop "]
+source = "github"
+github = "telegramdesktop/tdesktop"
+use_latest_release = true
+
+# GitHub Template
+[" app-crypt - swtpm "]
+source = "github"
+github = "stefanberger/swtpm"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-qt - qtbase "]
+source = "regex"
+url = "https://download.qt.io/official_releases/qt/${PV%.*}//submodules/"
+regex = "qtbase-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-apps - hwloc "]
+source = "regex"
+url = "https://www.open-mpi.org/software//${PV%.*}/downloads/"
+regex = "hwloc-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-cpp - tbb "]
+source = "github"
+github = "oneapi-src/oneTBB"
+use_latest_release = true
+
+# GitHub Template
+[" media-libs - libheif "]
+source = "github"
+github = "strukturag/libheif"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" net-dns - avahi "]
+source = "regex"
+url = "http://avahi.org/download/"
+regex = "avahi-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-libs - gpm "]
+source = "regex"
+url = "https://www.nico.schottelius.org/software/gpm/archives/"
+regex = "gpm-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-fs - eudev "]
+source = "regex"
+url = "https://dev.gentoo.org/~blueness/eudev/"
+regex = "eudev-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-sound - ecasound "]
+source = "regex"
+url = "https://ecasound.seul.org/download/"
+regex = "ecasound-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-process - fcron "]
+source = "regex"
+url = "http://fcron.free.fr/archives/"
+regex = "fcron-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - xvid "]
+source = "regex"
+url = "http://downloads.xvid.org/downloads/"
+regex = "xvid-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-libs - ncurses "]
+source = "regex"
+url = "https://invisible-mirror.net/archives/ncurses/"
+regex = "ncurses-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-fs - cryptsetup "]
+source = "regex"
+url = "https://www.kernel.org/pub/linux/utils/cryptsetup/v${PV%.*}/"
+regex = "cryptsetup-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-crypt - tpm2-ibmswtpm "]
+source = "regex"
+url = "https://sourceforge.net/projects/ibmswtpm2/files/"
+regex = "tpm2-ibmswtpm-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - libepoxy "]
+source = "github"
+github = "anholt/libepoxy"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-gfx - gqview "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "gqview-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-admin - sudo "]
+source = "regex"
+url = "https://www.sudo.ws/dist/"
+regex = "sudo-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-libs - rpcsvc-proto "]
+source = "github"
+github = "thkukuk/rpcsvc-proto"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - freeglut "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "freeglut-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libesmtp "]
+source = "regex"
+url = "http://brianstafford.info/libesmtp/"
+regex = "libesmtp-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" xfce-base - xfwm4 "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce//${PV%.*}/"
+regex = "xfwm4-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - fribidi "]
+source = "github"
+github = "fribidi/fribidi"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-text - xdvik "]
+source = "regex"
+url = "https://download.sourceforge.net/xdvi/"
+regex = "xdvik-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libassuan "]
+source = "regex"
+url = "https://www.gnupg.org/ftp/gcrypt/libassuan/"
+regex = "libassuan-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libksba "]
+source = "regex"
+url = "https://www.gnupg.org/ftp/gcrypt/"
+regex = "libksba-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" xfce-base - thunar "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce//${PV%.*}/"
+regex = "thunar-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-libs - talloc "]
+source = "regex"
+url = "https://www.samba.org/ftp/"
+regex = "talloc-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - ccolamd "]
+source = "regex"
+url = "http://202.36.178.9/sage/"
+regex = "ccolamd-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libogg "]
+source = "regex"
+url = "http://downloads.xiph.org/releases/ogg/"
+regex = "libogg-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libedit "]
+source = "regex"
+url = "https://thrysoee.dk/editline/"
+regex = "libedit-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-libs - nghttp2 "]
+source = "github"
+github = "nghttp2/nghttp2"
+use_latest_release = true
+
+# GitHub Template
+[" dev-python - bitsandbytes "]
+source = "github"
+github = "TimDettmers/bitsandbytes"
+use_latest_release = true
+
+# GitHub Template
+[" dev-cpp - nlohmann_json "]
+source = "github"
+github = "nlohmann/json"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-video - mplayer "]
+source = "regex"
+url = "http://www.mplayerhq.hu/MPlayer/releases/"
+regex = "mplayer-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-libs - libssh "]
+source = "regex"
+url = "https://www.libssh.org/files/${PV%.*}/"
+regex = "libssh-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - mesa-amber "]
+source = "regex"
+url = "https://archive.mesa3d.org/"
+regex = "mesa-amber-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-sound - audacity "]
+source = "github"
+github = "audacity/audacity"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libzip "]
+source = "regex"
+url = "https://www.nih.at/libzip/"
+regex = "libzip-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-games - quickbms-scripts "]
+source = "regex"
+url = "https://aluigi.altervista.org/"
+regex = "quickbms-scripts-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - libjxl "]
+source = "github"
+github = "libjxl/libjxl"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - exempi "]
+source = "regex"
+url = "https://libopenraw.freedesktop.org/download/"
+regex = "exempi-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-lang - sassc "]
+source = "github"
+github = "sass/sassc"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-sound - lame "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "lame-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-sound - timidity-freepats "]
+source = "regex"
+url = "http://freepats.opensrc.org/"
+regex = "timidity-freepats-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - aalib "]
+source = "regex"
+url = "https://downloads.sourceforge.net/aa-project/"
+regex = "aalib-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-power - iasl "]
+source = "regex"
+url = "http://www.acpica.org/sites/acpica/files/"
+regex = "iasl-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - libsamplerate "]
+source = "github"
+github = "libsndfile/libsamplerate"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-qt - qt "]
+source = "regex"
+url = "https://download.qt.io/official_releases/qt/${PV%.*}//single/"
+regex = "qt-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" xfce-extra - thunar-volman "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce//${PV%.*}/"
+regex = "thunar-volman-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - cunit "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "cunit-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - valgrind "]
+source = "regex"
+url = "https://sourceware.org/pub/valgrind/"
+regex = "valgrind-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" x11-libs - libvdpau-va-gl "]
+source = "github"
+github = "i-rinat/libvdpau-va-gl"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-text - iso-codes "]
+source = "regex"
+url = "http://anduin.linuxfromscratch.org/BLFS/iso-codes/"
+regex = "iso-codes-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libraw "]
+source = "regex"
+url = "https://www.libraw.org/data/"
+regex = "libraw-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-libs - musl "]
+source = "regex"
+url = "https://www.musl-libc.org/releases/"
+regex = "musl-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-fonts - terminus-font "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "terminus-font-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-process - procps "]
+source = "regex"
+url = "https://download.sourceforge.net/-ng/"
+regex = "procps-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-text - enchant "]
+source = "github"
+github = "AbiWord/enchant"
+use_latest_release = true
+
+# GitHub Template
+[" dev-libs - libsass "]
+source = "github"
+github = "sass/libsass"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-util - nvidia-cuda-profiler-api "]
+source = "regex"
+url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_profiler_api/linux-x86_64/"
+regex = "nvidia-cuda-profiler-api-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - goland "]
+source = "regex"
+url = "https://download.jetbrains.com/go/"
+regex = "goland-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - sgml-common "]
+source = "regex"
+url = "https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/"
+regex = "sgml-common-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-lang - go "]
+source = "regex"
+url = "https://dl.google.com/"
+regex = "go-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - draco "]
+source = "github"
+github = "google/draco"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sci-libs - spqr "]
+source = "regex"
+url = "http://202.36.178.9/sage/"
+regex = "spqr-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libebml "]
+source = "regex"
+url = "https://dl.matroska.org/downloads/"
+regex = "libebml-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sys-fs - fuse "]
+source = "github"
+github = "libfuse/libfuse"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - nspr "]
+source = "regex"
+url = "https://archive.mozilla.org/pub/nspr/releases/v/src/"
+regex = "nspr-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - libabw "]
+source = "regex"
+url = "https://dev-www.libreoffice.org/src/"
+regex = "libabw-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - npth "]
+source = "regex"
+url = "https://www.gnupg.org/ftp/gcrypt/"
+regex = "npth-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-libs - libX11 "]
+source = "regex"
+url = "https://xorg.freedesktop.org/archive/individual/lib/"
+regex = "libX11-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - xxhash "]
+source = "github"
+github = "Cyan4973/xxHash"
+use_latest_release = true
+
+# GitHub Template
+[" dev-libs - univalue "]
+source = "github"
+github = "jgarzik/univalue"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" net-nds - openldap "]
+source = "regex"
+url = "ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/"
+regex = "openldap-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-util - google-perftools "]
+source = "github"
+github = "gperftools/gperftools"
+use_latest_release = true
+
+# GitHub Template
+[" dev-util - directx-headers "]
+source = "github"
+github = "microsoft/${MY_PN}"
+use_latest_release = true
+
+# GitLab Template
+[" media-gfx - graphviz "]
+source = "gitlab"
+gitlab = "api/v4"
+use_max_tag = true
+
+# GitHub Template
+[" dev-util - cpptest "]
+source = "github"
+github = "cpptest/cpptest"
+use_latest_release = true
+
+# GitHub Template
+[" sci-libs - pytorch "]
+source = "github"
+github = "pytorch/pytorch"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - devil "]
+source = "regex"
+url = "https://download.sourceforge.net/openil/"
+regex = "devil-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - libbytesize "]
+source = "github"
+github = "storaged-project/libbytesize"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - libtheora "]
+source = "regex"
+url = "http://downloads.xiph.org/releases/theora/"
+regex = "libtheora-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-lang - swig "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "swig-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - lilv "]
+source = "regex"
+url = "http://download.drobilla.net/"
+regex = "lilv-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - cmocka "]
+source = "regex"
+url = "https://cmocka.org/files/${PV%.*}/"
+regex = "cmocka-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-power - acpid "]
+source = "regex"
+url = "https://download.sourceforge.net/2/"
+regex = "acpid-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-crypt - gnupg "]
+source = "regex"
+url = "https://www.gnupg.org/ftp/gcrypt/gnupg/"
+regex = "gnupg-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - lcms "]
+source = "regex"
+url = "https://downloads.sourceforge.net/"
+regex = "lcms-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-libs - gnutls "]
+source = "regex"
+url = "https://www.gnupg.org/ftp/gcrypt/gnutls/v${PV%.*}/"
+regex = "gnutls-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" games-misc - fortune-mod "]
+source = "regex"
+url = "http://www.redellipse.net/code/downloads/"
+regex = "fortune-mod-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-forensics - mac-robber "]
+source = "regex"
+url = "http://prdownloads.sourceforge.net/mac-robber/"
+regex = "mac-robber-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - lttng-tools "]
+source = "regex"
+url = "https://lttng.org/files/"
+regex = "lttng-tools-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - gd "]
+source = "github"
+github = "libgd/libgd"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-lang - mujs "]
+source = "regex"
+url = "https://mujs.com/downloads/"
+regex = "mujs-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - sdl2-net "]
+source = "regex"
+url = "http://www.libsdl.org/projects/SDL_net/release/"
+regex = "sdl2-net-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - debootstrap "]
+source = "regex"
+url = "http://ftp.jp.debian.org/debian/pool/main/d/"
+regex = "debootstrap-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" x11-misc - x11vnc "]
+source = "github"
+github = "LibVNC/x11vnc"
+use_latest_release = true
+
+# GitHub Template
+[" dev-libs - yajl "]
+source = "github"
+github = "lloyd/yajl"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" xfce-base - xfconf "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce//${PV:0:4}/"
+regex = "xfconf-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-embedded - bossa "]
+source = "github"
+github = "shumatech/BOSSA"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-admin - prelude-manager "]
+source = "regex"
+url = "https://www.prelude-siem.org/attachments/download/1176/"
+regex = "prelude-manager-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" www-servers - apache "]
+source = "regex"
+url = "https://archive.apache.org/dist/httpd/"
+regex = "apache-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-cdr - xfburn "]
+source = "regex"
+url = "http://archive.xfce.org/src/apps//${PV%.*}/"
+regex = "xfburn-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-libs - libtirpc "]
+source = "regex"
+url = "https://downloads.sourceforge.net/libtirpc/"
+regex = "libtirpc-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libopusenc "]
+source = "regex"
+url = "https://downloads.xiph.org/releases/opus/"
+regex = "libopusenc-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-sound - wavpack "]
+source = "github"
+github = "dbry/WavPack"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" x11-misc - slim "]
+source = "regex"
+url = "https://sourceforge.net/projects/slim.berlios/files/"
+regex = "slim-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-crypt - gpgme "]
+source = "regex"
+url = "https://www.gnupg.org/ftp/gcrypt/"
+regex = "gpgme-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - paho-mqtt-c "]
+source = "github"
+github = "eclipse/paho.mqtt.c"
+use_latest_release = true
+
+# GitHub Template
+[" app-i18n - unicode-cldr "]
+source = "github"
+github = "unicode-org/cldr"
+use_latest_release = true
+
+# GitHub Template
+[" media-libs - pipewire "]
+source = "github"
+github = "PipeWire/pipewire"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - audiofile "]
+source = "regex"
+url = "https://audiofile.68k.org/"
+regex = "audiofile-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - geoip "]
+source = "github"
+github = "maxmind/-api-c"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libprelude "]
+source = "regex"
+url = "https://www.prelude-siem.org/pkg/src/"
+regex = "libprelude-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libgusb "]
+source = "regex"
+url = "https://people.freedesktop.org/~hughsient/releases/"
+regex = "libgusb-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-util - facedetect "]
+source = "github"
+github = "AzusaOS/facedetect"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-text - libwpd "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "libwpd-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - libwpg "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "libwpg-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-video - mpv "]
+source = "github"
+github = "mpv-player/mpv"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" x11-libs - qwt "]
+source = "regex"
+url = "https://download.sourceforge.net/project///${PV/_/-}/"
+regex = "qwt-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitLab Template
+[" x11-misc - shared-mime-info "]
+source = "gitlab"
+gitlab = "xdg/shared-mime-info"
+use_max_tag = true
+
+# FTP HTTP HTTPS Template
+[" app-arch - xz "]
+source = "regex"
+url = "https://tukaani.org/xz/"
+regex = "xz-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-apps - busybox "]
+source = "regex"
+url = "https://busybox.net/downloads/"
+regex = "busybox-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-util - cmake "]
+source = "github"
+github = "Kitware/CMake"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - libid3tag "]
+source = "regex"
+url = "https://codeberg.org/tenacityteam/libid3tag/archive/"
+regex = "libid3tag-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sys-apps - ipmitool "]
+source = "github"
+github = "ipmitool/ipmitool"
+use_latest_release = true
+
+# GitLab Template
+[" app-emulation - virtiofsd "]
+source = "gitlab"
+gitlab = "virtio-fs/virtiofsd"
+use_max_tag = true
+
+# FTP HTTP HTTPS Template
+[" app-text - wv2 "]
+source = "regex"
+url = "https://download.sourceforge.net/wvware/"
+regex = "wv2-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-libs - bun "]
+source = "github"
+github = "oven-sh/bun"
+use_latest_release = true
+
+# GitHub Template
+[" media-libs - harfbuzz "]
+source = "github"
+github = "harfbuzz/harfbuzz"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" net-dns - bind "]
+source = "regex"
+url = "https://downloads.isc.org/isc/bind9/"
+regex = "bind-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-fs - btrfs-progs "]
+source = "regex"
+url = "https://www.kernel.org/pub/linux/kernel/people/kdave/"
+regex = "btrfs-progs-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-fs - samba "]
+source = "regex"
+url = "https://download.samba.org/pub/samba/stable/"
+regex = "samba-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-analyzer - traceroute "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "traceroute-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-lang - php "]
+source = "regex"
+url = "https://www.php.net/distributions/"
+regex = "php-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libpcre "]
+source = "regex"
+url = "https://ftp.pcre.org/pub/pcre/"
+regex = "libpcre-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - xine-lib "]
+source = "regex"
+url = "https://downloads.sourceforge.net/xine/"
+regex = "xine-lib-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - libpaper "]
+source = "regex"
+url = "http://ftp.debian.org/debian/pool/main/libp/libpaper/"
+regex = "libpaper-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-analyzer - gvm-libs "]
+source = "github"
+github = "greenbone/gvm-libs"
+use_latest_release = true
+
+# GitHub Template
+[" dev-libs - oniguruma "]
+source = "github"
+github = "kkos/oniguruma"
+use_latest_release = true
+
+# GitHub Template
+[" app-arch - brotli "]
+source = "github"
+github = "google/brotli"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - libcanberra "]
+source = "regex"
+url = "http://0pointer.de/lennart/projects/"
+regex = "libcanberra-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sys-apps - snap-confine "]
+source = "github"
+github = "snapcore/snap-confine"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-libs - glibc "]
+source = "regex"
+url = "http://ftp.jaist.ac.jp/pub/GNU/libc/"
+regex = "glibc-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-gfx - qrencode "]
+source = "regex"
+url = "https://fukuchi.org/works/"
+regex = "qrencode-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-gfx - gimp "]
+source = "regex"
+url = "https://download.gimp.org/mirror/pub/gimp/v${PV%.*}/"
+regex = "gimp-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-libs - libva-vdpau-driver "]
+source = "regex"
+url = "https://www.freedesktop.org/software/vaapi/releases/libva-vdpau-driver/"
+regex = "libva-vdpau-driver-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - cdk "]
+source = "regex"
+url = "ftp://ftp.invisible-island.net/cdk/"
+regex = "cdk-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libexif "]
+source = "regex"
+url = "https://downloads.sourceforge.net/libexif/"
+regex = "libexif-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-cluster - openmpi "]
+source = "regex"
+url = "http://www.open-mpi.org/software/ompi/v${PV%.*}/downloads/"
+regex = "openmpi-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-gfx - potrace "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "potrace-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - icu "]
+source = "github"
+github = "unicode-org/icu"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-lang - rust-bin "]
+source = "regex"
+url = "https://static.rust-lang.org/dist/"
+regex = "rust-bin-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sci-libs - dlib "]
+source = "github"
+github = "davisking/dlib"
+use_latest_release = true
+
+# GitHub Template
+[" net-p2p - go-ethereum "]
+source = "github"
+github = "ethereum/go-ethereum"
+use_latest_release = true
+
+# GitLab Template
+[" sys-power - upower "]
+source = "gitlab"
+gitlab = "upower/upower"
+use_max_tag = true
+
+# FTP HTTP HTTPS Template
+[" kde-frameworks - extra-cmake-modules "]
+source = "regex"
+url = "https://download.kde.org/stable/${CATEGORY#kde-}/${PV%.*}/"
+regex = "extra-cmake-modules-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" xfce-base - xfdesktop "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce//${PV%.*}/"
+regex = "xfdesktop-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - glm "]
+source = "github"
+github = "g-truc/glm"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" xfce-base - xfce4-session "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce//${PV%.*}/"
+regex = "xfce4-session-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-sound - mikmod "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "mikmod-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - cyrus-sasl "]
+source = "github"
+github = "cyrusimap/cyrus-sasl"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - botan "]
+source = "regex"
+url = "https://botan.randombit.net/releases/"
+regex = "botan-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# Git Template
+[" sys-apps - which "]
+source = "git"
+git = "https://carlowood.github.io/which/"
+
+# FTP HTTP HTTPS Template
+[" media-libs - glu "]
+source = "regex"
+url = "https://mesa.freedesktop.org/archive/glu/"
+regex = "glu-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-libs - xcb-util-image "]
+source = "regex"
+url = "https://xcb.freedesktop.org/dist/"
+regex = "xcb-util-image-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-fs - lvm2-static "]
+source = "regex"
+url = "http://mirrors.kernel.org/sourceware/lvm2/"
+regex = "lvm2-static-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - volume_key "]
+source = "regex"
+url = "http://releases.pagure.org/"
+regex = "volume_key-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-misc - jq "]
+source = "github"
+github = "stedolan/jq"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - alsa-lib "]
+source = "regex"
+url = "ftp://ftp.alsa-project.org/pub/lib/"
+regex = "alsa-lib-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - mythes "]
+source = "regex"
+url = "https://download.sourceforge.net/hunspell/MyThes/"
+regex = "mythes-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-arch - xar "]
+source = "github"
+github = "apple-oss-distributions/xar"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - dbus-glib "]
+source = "regex"
+url = "https://dbus.freedesktop.org/releases/dbus-glib/"
+regex = "dbus-glib-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - sdl-image "]
+source = "github"
+github = "libsdl-org/SDL_image"
+use_latest_release = true
+
+# GitLab Template
+[" app-misc - geoclue "]
+source = "gitlab"
+gitlab = "geoclue/geoclue"
+use_max_tag = true
+
+# GitHub Template
+[" dev-libs - expat "]
+source = "github"
+github = "libexpat/libexpat"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-emulation - spice-protocol "]
+source = "regex"
+url = "https://www.spice-space.org/download/releases/"
+regex = "spice-protocol-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-emulation - qemu-console "]
+source = "regex"
+url = "https://download.qemu.org/"
+regex = "qemu-console-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-i18n - ibus "]
+source = "github"
+github = "ibus/ibus"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-apps - iproute2 "]
+source = "regex"
+url = "https://mirrors.edge.kernel.org/pub/linux/utils/net/iproute2/"
+regex = "iproute2-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-libs - libtermcap-compat "]
+source = "regex"
+url = "http://ftp.jaist.ac.jp/pub/Linux/Gentoo/distfiles/"
+regex = "libtermcap-compat-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libjpeg-turbo "]
+source = "regex"
+url = "https://sourceforge.net/projects/libjpeg-turbo/files/"
+regex = "libjpeg-turbo-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sci-libs - superlu "]
+source = "github"
+github = "xiaoyeli/superlu"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-apps - pv "]
+source = "regex"
+url = "https://www.ivarch.com/programs/sources/"
+regex = "pv-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-fonts - liberation-fonts "]
+source = "github"
+github = "liberationfonts/liberation-fonts"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" x11-libs - vte "]
+source = "regex"
+url = "http://ftp.nara.wide.ad.jp/pub/X11/GNOME/sources/vte/${PV:0:4}/"
+regex = "vte-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-text - tidy-html5 "]
+source = "github"
+github = "htacg/tidy-html5"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-libs - zlib "]
+source = "regex"
+url = "http://zlib.net/"
+regex = "zlib-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - sdl2-image "]
+source = "github"
+github = "libsdl-org/SDL_image"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" xfce-base - xfce4-panel "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce//${PV%.*}/"
+regex = "xfce4-panel-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libelf "]
+source = "regex"
+url = "http://www.mr511.de/software/"
+regex = "libelf-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-gfx - graphite2 "]
+source = "github"
+github = "silnrsi/graphite"
+use_latest_release = true
+
+# GitHub Template
+[" app-forensics - zzuf "]
+source = "github"
+github = "samhocevar/zzuf"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" net-wireless - bluez "]
+source = "regex"
+url = "https://www.kernel.org/pub/linux/bluetooth/"
+regex = "bluez-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-gfx - fontforge "]
+source = "github"
+github = "fontforge/fontforge"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-cpp - cairomm "]
+source = "regex"
+url = "https://www.cairographics.org/releases/"
+regex = "cairomm-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-boot - syslinux "]
+source = "regex"
+url = "https://mirrors.edge.kernel.org/pub/linux/utils/boot/"
+regex = "syslinux-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - boost "]
+source = "regex"
+url = "https://boostorg.jfrog.io/artifactory/main/release//source/boost_${PV//./"
+regex = "boost-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - pkg-config "]
+source = "regex"
+url = "https://pkg-config.freedesktop.org/releases/"
+regex = "pkg-config-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-p2p - chainbridge "]
+source = "github"
+github = "ChainSafe/ChainBridge"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" net-firewall - ufw "]
+source = "regex"
+url = "https://launchpad.net//${PV%.*}//+download/"
+regex = "ufw-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-sound - sox "]
+source = "regex"
+url = "https://dev.gentoo.org/~fordfrog/distfiles/"
+regex = "sox-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-proxy - haproxy "]
+source = "regex"
+url = "http://www.haproxy.org/download/${PV%.*}/src/"
+regex = "haproxy-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-devel - gcc "]
+source = "regex"
+url = "http://ftp.tsukuba.wide.ad.jp/software/gcc/releases/"
+regex = "gcc-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sci-libs - caffe2 "]
+source = "github"
+github = "pytorch/pytorch"
+use_latest_release = true
+
+# GitHub Template
+[" dev-libs - roct-thunk-interface "]
+source = "github"
+github = "RadeonOpenCompute/ROCT-Thunk-Interface"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - apr "]
+source = "regex"
+url = "http://ftp.riken.jp/net/apache/"
+regex = "apr-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-dotnet - libgdiplus "]
+source = "regex"
+url = "https://download.mono-project.com/sources/"
+regex = "libgdiplus-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-libs - c-client "]
+source = "regex"
+url = "http://ftp.ntua.gr/pub/net/mail/imap/"
+regex = "c-client-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-themes - hicolor-icon-theme "]
+source = "regex"
+url = "https://icon-theme.freedesktop.org/releases/"
+regex = "hicolor-icon-theme-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-gfx - imagemagick "]
+source = "regex"
+url = "https://www.imagemagick.org/download/releases/"
+regex = "imagemagick-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libao "]
+source = "regex"
+url = "http://downloads.xiph.org/releases/ao/"
+regex = "libao-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sys-auth - consolekit "]
+source = "github"
+github = "ConsoleKit2/ConsoleKit2"
+use_latest_release = true
+
+# GitHub Template
+[" sys-libs - efivar "]
+source = "github"
+github = "rhinstaller/efivar"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-i18n - anthy "]
+source = "regex"
+url = "https://osdn.net/dl/anthy/"
+regex = "anthy-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-db - libiodbc "]
+source = "regex"
+url = "https://downloads.sourceforge.net/iodbc/"
+regex = "libiodbc-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sys-libs - libsepol "]
+source = "github"
+github = "SELinuxProject/selinux"
+use_latest_release = true
+
+# GitHub Template
+[" sys-auth - ykpers "]
+source = "github"
+github = "Yubico/yubikey-personalization"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - openssl "]
+source = "regex"
+url = "https://www.openssl.org/source/"
+regex = "openssl-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-libs - OpenIPMI "]
+source = "regex"
+url = "https://sourceforge.net/projects/openipmi/files/OpenIPMI%202.0%20Library/"
+regex = "OpenIPMI-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-crypt - mit-krb5 "]
+source = "regex"
+url = "https://kerberos.org/dist/krb5/1.19/"
+regex = "mit-krb5-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-antivirus - clamav "]
+source = "github"
+github = "Cisco-Talos/clamav"
+use_latest_release = true
+
+# GitHub Template
+[" media-libs - embree "]
+source = "github"
+github = "embree/embree"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-text - libqxp "]
+source = "regex"
+url = "https://dev-www.libreoffice.org/src/"
+regex = "libqxp-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sys-apps - shadow "]
+source = "github"
+github = "shadow-maint/shadow"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-libs - uclibc-ng "]
+source = "regex"
+url = "https://downloads.uclibc-ng.org/releases/"
+regex = "uclibc-ng-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - librevenge "]
+source = "regex"
+url = "https://sf.net/projects/libwpd/files/"
+regex = "librevenge-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-apps - less "]
+source = "regex"
+url = "http://www.greenwoodsoftware.com/less/"
+regex = "less-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-print - cups "]
+source = "github"
+github = "apple/cups"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-lang - tcl "]
+source = "regex"
+url = "https://download.sourceforge.net/tcl/"
+regex = "tcl-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-p2p - litecoin "]
+source = "regex"
+url = "https://download.litecoin.org//src/"
+regex = "litecoin-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-ftp - proftpd "]
+source = "regex"
+url = "ftp://ftp.proftpd.org/distrib/source/"
+regex = "proftpd-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-libs - libnice "]
+source = "regex"
+url = "https://nice.freedesktop.org/releases/"
+regex = "libnice-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - hyphen "]
+source = "regex"
+url = "https://download.sourceforge.net/hunspell/"
+regex = "hyphen-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-libs - tevent "]
+source = "regex"
+url = "https://www.samba.org/ftp/"
+regex = "tevent-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-vpn - tor "]
+source = "regex"
+url = "https://dist.torproject.org/"
+regex = "tor-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - cxsparse "]
+source = "regex"
+url = "http://202.36.178.9/sage/"
+regex = "cxsparse-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitLab Template
+[" x11-libs - libvdpau "]
+source = "gitlab"
+gitlab = "vdpau/libvdpau"
+use_max_tag = true
+
+# FTP HTTP HTTPS Template
+[" app-text - docbook-xml-dtd "]
+source = "regex"
+url = "https://docbook.org/xml/"
+regex = "docbook-xml-dtd-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-apps - mesa-progs "]
+source = "regex"
+url = "https://mesa.freedesktop.org/archive/demos/"
+regex = "mesa-progs-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" x11-libs - libva "]
+source = "github"
+github = "intel/libva"
+use_latest_release = true
+
+# GitHub Template
+[" media-libs - graphene "]
+source = "github"
+github = "ebassi/graphene"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-misc - elasticsearch "]
+source = "regex"
+url = "https://artifacts.elastic.co/downloads/"
+regex = "elasticsearch-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-misc - ntp "]
+source = "regex"
+url = "https://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-${PV%.*}/"
+regex = "ntp-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sys-process - tini "]
+source = "github"
+github = "krallin/tini"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-crypt - rhash "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "rhash-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" media-libs - openexr "]
+source = "github"
+github = "AcademySoftwareFoundation/openexr"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - redland "]
+source = "regex"
+url = "http://download.librdf.org/source/"
+regex = "redland-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - systemtap "]
+source = "regex"
+url = "https://www.sourceware.org/systemtap/ftp/releases/"
+regex = "systemtap-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-python - dbus-python "]
+source = "regex"
+url = "https://dbus.freedesktop.org/releases/"
+regex = "dbus-python-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-lang - nasm "]
+source = "regex"
+url = "https://www.nasm.us/pub/nasm/releasebuilds/"
+regex = "nasm-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" app-text - po4a "]
+source = "github"
+github = "mquinson/po4a"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" dev-libs - apache-arrow "]
+source = "regex"
+url = "https://archive.apache.org/dist/"
+regex = "apache-arrow-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-accessibility - espeak "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "espeak-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libgphoto2 "]
+source = "regex"
+url = "https://download.sourceforge.net/gphoto/"
+regex = "libgphoto2-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-sound - modplugtools "]
+source = "regex"
+url = "https://download.sourceforge.net/modplug-xmms/"
+regex = "modplugtools-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-libs - startup-notification "]
+source = "regex"
+url = "https://www.freedesktop.org/software//releases/"
+regex = "startup-notification-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-libs - db "]
+source = "regex"
+url = "http://anduin.linuxfromscratch.org/BLFS/bdb/"
+regex = "db-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - liblinear "]
+source = "github"
+github = "cjlin1/liblinear"
+use_latest_release = true
+
+# GitHub Template
+[" app-arch - libdeflate "]
+source = "github"
+github = "ebiggers/libdeflate"
+use_latest_release = true
+
+# GitHub Template
+[" dev-libs - re2 "]
+source = "github"
+github = "google/re2"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-apps - pciutils "]
+source = "regex"
+url = "http://mj.ucw.cz/download/linux/pci/"
+regex = "pciutils-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sys-block - ndctl "]
+source = "github"
+github = "pmem/ndctl"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-misc - toilet "]
+source = "regex"
+url = "http://caca.zoy.org/raw-attachment/wiki/"
+regex = "toilet-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" sci-libs - openblas "]
+source = "github"
+github = "xianyi/OpenBLAS"
+use_latest_release = true
+
+# GitHub Template
+[" app-text - ghostscript-gpl "]
+source = "github"
+github = "ArtifexSoftware/ghostpdl-downloads"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" sys-boot - gnu-efi "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "gnu-efi-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - log4cplus "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "log4cplus-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-cpp - abseil-cpp "]
+source = "github"
+github = "abseil/abseil-cpp"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" net-p2p - bitcoind "]
+source = "regex"
+url = "https://bitcoincore.org/bin/bitcoin-core-${MY_PV}/"
+regex = "bitcoind-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-libs - libgcrypt "]
+source = "regex"
+url = "https://www.gnupg.org/ftp/gcrypt/"
+regex = "libgcrypt-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" mail-filter - bogofilter "]
+source = "regex"
+url = "https://downloads.sourceforge.net/bogofilter/"
+regex = "bogofilter-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" net-libs - libpsl "]
+source = "github"
+github = "rockdaboot/libpsl"
+use_latest_release = true
+
+# GitHub Template
+[" app-text - docbook-xsl-stylesheets "]
+source = "github"
+github = "docbook/xslt10-stylesheets"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - libdvdcss "]
+source = "regex"
+url = "https://get.videolan.org/libdvdcss/"
+regex = "libdvdcss-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" x11-misc - sddm "]
+source = "github"
+github = "sddm/sddm"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" net-firewall - iptables "]
+source = "regex"
+url = "https://www.netfilter.org/projects/iptables/files/"
+regex = "iptables-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libvisio "]
+source = "regex"
+url = "https://dev-www.libreoffice.org/src/libvisio/"
+regex = "libvisio-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-libs - libxkbcommon "]
+source = "regex"
+url = "https://xkbcommon.org/download/"
+regex = "libxkbcommon-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-misc - openssh "]
+source = "regex"
+url = "https://cloudflare.cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/"
+regex = "openssh-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libwmf "]
+source = "regex"
+url = "https://downloads.sourceforge.net/wvware/"
+regex = "libwmf-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-util - lttng-modules "]
+source = "regex"
+url = "https://lttng.org/files/"
+regex = "lttng-modules-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-apps - pcsc-lite "]
+source = "regex"
+url = "https://pcsclite.apdu.fr/files/"
+regex = "pcsc-lite-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-apps - net-tools "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "net-tools-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libsdl "]
+source = "regex"
+url = "http://www.libsdl.org/release/"
+regex = "libsdl-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-gfx - graphicsmagick "]
+source = "regex"
+url = "https://download.sourceforge.net/"
+regex = "graphicsmagick-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - suil "]
+source = "regex"
+url = "http://download.drobilla.net/"
+regex = "suil-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - speexdsp "]
+source = "regex"
+url = "http://downloads.xiph.org/releases/speex/"
+regex = "speexdsp-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-libs - libjpeg "]
+source = "regex"
+url = "https://archive.debian.org/debian/pool/main/libj/libjpeg8/"
+regex = "libjpeg-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-text - libodfgen "]
+source = "regex"
+url = "https://download.sourceforge.net/libwpd/"
+regex = "libodfgen-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-libs - libcap-ng "]
+source = "regex"
+url = "https://people.redhat.com/sgrubb/libcap-ng/"
+regex = "libcap-ng-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-libs - libical "]
+source = "github"
+github = "libical/libical"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" media-libs - libcaca "]
+source = "regex"
+url = "http://caca.zoy.org/files/libcaca/"
+regex = "libcaca-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# GitHub Template
+[" dev-util - ninja "]
+source = "github"
+github = "ninja-build/ninja"
+use_latest_release = true
+
+# GitHub Template
+[" sys-fs - squashfs-tools "]
+source = "github"
+github = "plougher/squashfs-tools"
+use_latest_release = true
+
+# GitHub Template
+[" dev-python - pyopenjtalk-prebuilt "]
+source = "github"
+github = "r9y9/open_jtalk"
+use_latest_release = true
+
+# GitHub Template
+[" games-emulation - higan "]
+source = "github"
+github = "byuu/higan"
+use_latest_release = true
+
+# FTP HTTP HTTPS Template
+[" app-text - libexttextcat "]
+source = "regex"
+url = "http://dev-www.libreoffice.org/src/"
+regex = "libexttextcat-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" xfce-base - libxfce4util "]
+source = "regex"
+url = "http://archive.xfce.org/src/xfce/libxfce4util/${PV%.*}/"
+regex = "libxfce4util-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" media-fonts - aquafont "]
+source = "regex"
+url = "http://www.geocities.jp/teardrops_in_aquablue/fnt/"
+regex = "aquafont-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sci-libs - coinor-mp "]
+source = "regex"
+url = "http://www.coin-or.org/download/source/${MYPN}/"
+regex = "coinor-mp-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-lang - rust "]
+source = "regex"
+url = "https://static.rust-lang.org/dist/"
+regex = "rust-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" app-i18n - unicode-ucd "]
+source = "regex"
+url = "https://www.unicode.org/Public/UNIDATA/"
+regex = "unicode-ucd-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" net-dns - c-ares "]
+source = "regex"
+url = "https://c-ares.haxx.se/download/"
+regex = "c-ares-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" x11-libs - xtrans "]
+source = "regex"
+url = "https://xorg.freedesktop.org/archive/individual/lib/"
+regex = "xtrans-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" dev-vcs - git "]
+source = "regex"
+url = "https://mirrors.edge.kernel.org/pub/software/scm/git/"
+regex = "git-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
+# FTP HTTP HTTPS Template
+[" sys-apps - kbd "]
+source = "regex"
+url = "https://mirrors.edge.kernel.org/pub/linux/utils/kbd/"
+regex = "kbd-([\\d.]+)\\.(?:tar\\.(?:gz|xz|bz2)|zip)"
+
